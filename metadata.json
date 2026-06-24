@@ -1,0 +1,6 @@
+{
+  "name": "JobPortal",
+  "description": "An elegant campus job board for students finding internships and graduate roles.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
