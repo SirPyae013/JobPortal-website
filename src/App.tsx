@@ -218,26 +218,8 @@ export default function App() {
                 {/* Underline line active indicator from screenshot */}
                 <div className="absolute h-[3px] bg-[#001142] bottom-0 left-0 right-0 rounded-full" />
               </div>
-              <button
-                id="nav-about-us"
-                onClick={() => {
-                  setInfoModalType('about');
-                  setIsInfoModalOpen(true);
-                }}
-                className="hover:text-[#016a61] transition-colors py-2"
-              >
-                About Us
-              </button>
-              <button
-                id="nav-contact"
-                onClick={() => {
-                  setInfoModalType('contact');
-                  setIsInfoModalOpen(true);
-                }}
-                className="hover:text-[#016a61] transition-colors py-2"
-              >
-                Contact
-              </button>
+
+  
             </nav>
           </div>
 
